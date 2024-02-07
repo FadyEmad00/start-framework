@@ -1,0 +1,8 @@
+/* main-color => #dc3545 */
+
+/* secondary => #212529 */
+
+.bg-main{
+    background-color: #dc3545;
+    min-height: 90vh;
+}

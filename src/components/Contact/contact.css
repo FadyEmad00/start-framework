@@ -1,0 +1,50 @@
+input {
+    outline: none;
+}
+
+.contact{
+    margin-top: 120px;
+}
+
+form {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.group{ 
+    position:relative; 
+    margin-bottom:45px; 
+}
+
+input{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:500px;
+    border:none;
+    border-bottom:1px solid #757575;
+}
+
+label{
+    color:#999; 
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+}
+
+input:focus ~ label, input:valid ~ label{
+    top:-20px;
+    font-size:14px;
+    color:#dc3545;
+}
+
+.submit-btn{
+    width:500px;
+    float: left;
+}
